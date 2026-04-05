@@ -5,7 +5,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" />
-  <img width="50%" src="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" alt="LLMChat Banner" />
+  <img width="85%" src="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" alt="LLMChat Banner" />
 </picture>
 
 <p align="center">
