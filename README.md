@@ -10,8 +10,9 @@
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.20%2B-green?style=flat-square&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue?style=flat-square)](./LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.1-brightgreen?style=flat-square)](https://github.com/SodiumSulfate/LLMChat/releases)
+[![Website](https://img.shields.io/badge/作者官网-sodium.ren-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://sodium.ren/)
 
-[English](#english) | [中文文档](#中文文档)
+[English](#english) | [中文文档](#中文文档) | [作者官网](https://sodium.ren/)
 
 </div>
 
