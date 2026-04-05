@@ -1,0 +1,39 @@
+name: LLMChat-Sodium_Sulfate
+version: 1.1
+main: com.sodium.llmchat.LLMChatPlugin
+api-version: 1.20
+
+commands:
+  llmchat:
+    description: Chat with AI using different APIs and models
+    usage: |
+      /llmchat <message> - Use default API and model
+      /llmchat -api:<name> <message> - Use specified API
+      /llmchat -model:<name> <message> - Use specified model
+      /llmchat -api:<name> -model:<name> <message> - Specify both
+      /llmchat list - List all available APIs and models
+      /llmchat help - Show help message
+      /llmchat check - Check all APIs and models availability (console only)
+      /llmchat reload - Reload configuration (console only)
+
+permissions:
+  llmchat.use:
+    description: 允许使用AI对话功能
+    default: true
+  llmchat.list:
+    description: 允许查看API和模型列表
+    default: true
+  llmchat.admin:
+    description: 管理员权限（reload、check命令）
+    default: op
+  llmchat.bypass.cooldown:
+    description: 绕过冷却时间限制
+    default: op
+  llmchat.*:
+    description: 所有LLMChat权限
+    default: op
+    children:
+      llmchat.use: true
+      llmchat.list: true
+      llmchat.admin: true
+      llmchat.bypass.cooldown: true

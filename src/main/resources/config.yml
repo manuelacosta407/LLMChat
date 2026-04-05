@@ -1,0 +1,58 @@
+# LLMChat 配置文件
+
+default_api: "siliconflow"
+
+help_message:
+  - "&e========== LLMChat 帮助 =========="
+  - "&b/llmchat <消息> &7- 使用默认API和模型与AI对话"
+  - "&b/llmchat -api:<名称> <消息> &7- 使用指定API"
+  - "&b/llmchat -model:<名称> <消息> &7- 使用指定模型"
+  - "&b/llmchat -api:<名称> -model:<名称> <消息> &7- 同时指定API和模型"
+  - "&b/llmchat list &7- 列出所有可用的API和模型"
+  - "&b/llmchat help &7- 显示此帮助信息"
+  - "&e=================================="
+
+cooldown:
+  whitelist:
+    - "player1"
+    - "player2"
+    - "admin"
+  default:
+    max_requests_per_minute: 5
+    cooldown_seconds: 60
+  models:
+    qwen:
+      max_requests_per_minute: 10
+      cooldown_seconds: 30
+    deepseek:
+      max_requests_per_minute: 5
+      cooldown_seconds: 60
+    gpt4:
+      max_requests_per_minute: 3
+      cooldown_seconds: 120
+    gpt35:
+      max_requests_per_minute: 10
+      cooldown_seconds: 30
+
+apis:
+  siliconflow:
+    url: "https://api.siliconflow.cn/v1/chat/completions"
+    api_key: "YOUR_API_KEY"
+    default_model: "qwen"
+    system_prompt: "你是Minecraft服务器中的AI助手，说话简短（不超过80字），用中文回答，尽量提供有用信息"
+    models:
+      qwen:
+        model_id: "Qwen/Qwen3-8B"
+      deepseek:
+        model_id: "deepseek-ai/DeepSeek-V3"
+  
+  openai:
+    url: "https://api.openai.com/v1/chat/completions"
+    api_key: "YOUR_OPENAI_KEY"
+    default_model: "gpt35"
+    system_prompt: "You are a helpful assistant in a Minecraft server. Keep responses short (under 80 chars)."
+    models:
+      gpt4:
+        model_id: "gpt-4"
+      gpt35:
+        model_id: "gpt-3.5-turbo"
