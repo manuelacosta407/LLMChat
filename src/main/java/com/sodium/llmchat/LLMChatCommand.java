@@ -1,7 +1,6 @@
 package com.sodium.llmchat;
 
 import com.google.gson.*;
-import org.bukkit.Bukkit;
 import org.bukkit.command.*;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
@@ -144,14 +143,14 @@ public class LLMChatCommand implements CommandExecutor {
         final LLMChatPlugin.ApiConfig finalApiConfig = apiConfig;
         final String finalMessage = parsed.message;
 
-        Bukkit.getScheduler().runTaskAsynchronously(plugin, () -> {
+        SchedulerUtil.executeAsync(plugin, () -> {
             try {
                 String reply = requestAI(finalApiConfig, finalModelId, finalMessage);
-                Bukkit.getScheduler().runTask(plugin, () -> {
+                SchedulerUtil.executeOnMain(plugin, sender, () -> {
                     sender.sendMessage("§bAI: §f" + reply);
                 });
             } catch (Exception e) {
-                Bukkit.getScheduler().runTask(plugin, () -> {
+                SchedulerUtil.executeOnMain(plugin, sender, () -> {
                     sender.sendMessage("§c调用AI时出错: " + e.getMessage());
                 });
                 plugin.getLogger().warning("AI request failed: " + e.getClass().getSimpleName() + " - " + sanitizeMessage(e.getMessage()));
@@ -234,7 +233,7 @@ public class LLMChatCommand implements CommandExecutor {
         AtomicInteger success = new AtomicInteger(0);
         
         for (ApiCheckTask task : tasks) {
-            Bukkit.getScheduler().runTaskAsynchronously(plugin, () -> {
+            SchedulerUtil.executeAsync(plugin, () -> {
                 try {
                     checkApi(task.config, task.modelId);
                     plugin.getLogger().info("[✓] " + task.config.getName() + "/" + task.modelName + " - 可用");

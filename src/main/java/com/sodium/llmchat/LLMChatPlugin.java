@@ -45,7 +45,7 @@ public class LLMChatPlugin extends JavaPlugin {
             "                                                                           ",
             "                                                                           ",
             "                    §b§lLLMChat Plugin Enabled!                           ",
-            "                  §7Version: 1.1 | Author: Sodium_Sulfate                 ",
+            "                  §7Version: 1.2 | Author: Sodium_Sulfate                 ",
             " ==========================================================================",
             ""
         };
@@ -145,6 +145,7 @@ public class LLMChatPlugin extends JavaPlugin {
         return true;
     }
 
+    @SuppressWarnings("deprecation")
     private void loadHelpMessage() {
         helpMessage = new ArrayList<>();
         List<String> rawMessages = getConfig().getStringList("help_message");
