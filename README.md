@@ -19,7 +19,7 @@
 [![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.20%2B-green?style=flat-square&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue?style=flat-square)](./LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.1-brightgreen?style=flat-square)](https://github.com/SodiumSulfate/LLMChat/releases)
+[![Version](https://img.shields.io/badge/Version-1.2-brightgreen?style=flat-square)](https://github.com/SodiumSulfate/LLMChat/releases)
 [![Website](https://img.shields.io/badge/作者官网-sodium.ren-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://sodium.ren/)
 
 [English](#english) | [中文文档](#中文文档) | [作者官网](https://sodium.ren/)
@@ -52,12 +52,13 @@ LLMChat 是一个为 Minecraft 服务器设计的 AI 聊天插件，支持多种
 | 🩺 **健康检查** | 控制台命令检查所有 API 和模型的可用性 |
 | 🔄 **热重载** | 无需重启服务器即可重新加载配置 |
 | 🔒 **安全设计** | 强制 HTTPS 连接，敏感信息自动脱敏 |
+| 🌿 **Folia 支持** | 完全兼容 Folia 区域化多线程服务器 |
 
 ### 环境要求
 
 | 依赖 | 版本要求 |
 |:----:|:--------:|
-| Minecraft Server | Paper 1.20+ (或 Spigot/Bukkit 兼容) |
+| Minecraft Server | Paper 1.20+ / Folia 1.20+ (或 Spigot/Bukkit 兼容) |
 | Java | 21 或更高版本 |
 
 ### 安装
@@ -212,12 +213,13 @@ LLMChat is an AI chat plugin designed for Minecraft servers, supporting multiple
 | 🩺 **Health Check** | Console command to check availability of all APIs and models |
 | 🔄 **Hot Reload** | Reload configuration without server restart |
 | 🔒 **Security Design** | Enforced HTTPS connections, automatic sensitive data sanitization |
+| 🌿 **Folia Support** | Fully compatible with Folia's regionized multithreading |
 
 ### Requirements
 
 | Dependency | Version |
 |:----------:|:-------:|
-| Minecraft Server | Paper 1.20+ (or Spigot/Bukkit compatible) |
+| Minecraft Server | Paper 1.20+ / Folia 1.20+ (or Spigot/Bukkit compatible) |
 | Java | 21 or higher |
 
 ### Installation
